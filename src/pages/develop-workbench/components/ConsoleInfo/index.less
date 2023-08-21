@@ -1,0 +1,58 @@
+.consoleInfo {
+  margin-top: 16px;
+  .consoleItem {
+    width: calc((100% - 24px) / 3);
+    height: 74px;
+    background: rgba(0,0,0,0.02);
+    margin: 4px;
+    padding: 8px 24px;
+    position: relative;
+    display: inline-flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 6px;
+    cursor: pointer;
+    .extraButton {
+      min-width: 24px;
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      & > span {
+        font-size: 12px;
+      }
+    }
+  }
+  .titleMsg {
+    font-family: PingFangSC-Semibold;
+    font-weight: 600;
+    font-size: 18px;
+    color: #2B354A;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  .descriptionMsg {
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    font-size: 14px;
+    color: #838B98;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+  .applicationMsg {
+    height: 100%;
+    .repositoryAdress {
+      height: 50%;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}

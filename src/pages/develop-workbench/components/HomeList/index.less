@@ -1,0 +1,90 @@
+.operationList {
+  margin-top: 16px;
+  .pipelineStatusTag {
+    height: 30px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    & > span > svg {
+      font-size: 16px;
+    }
+  }
+  .pipelineCommit {
+    display: flex;
+    & > span:first-child {
+      flex: 1;
+    }
+    .pipelineCommitRef {
+      color: #222;
+    }
+    .iconCommit {
+      font-size: 20px;
+      vertical-align: middle;
+    }
+  }
+  .ciJarFile {
+    width: 36px;
+    height: 36px;
+    canvas {
+      width: 36px !important;
+      height: 36px !important;
+    }
+  }
+  .ciVersionCopy {
+    word-break: break-all;
+    margin-bottom: 0;
+  }
+  .ciPhase {
+    display: flex;
+    align-items: center;
+    & > span {
+      & > span {
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        & > svg:hover {
+          cursor: pointer;
+          transform: scale(1.2, 1.2);
+        }
+      }
+    }
+    .stageAfter {
+      color: #d3d3d3;
+      font-weight: bold;
+      width: 20px;
+      margin: 8px;
+      border-bottom: 2px solid #d3d3d3;
+    }
+  }
+  .ciPoAction {
+    margin-left: 20px;
+  }
+}
+.stagePo {
+  display: flex;
+  align-items: center;
+}
+.stagePoDesc {
+  min-width: 140px;
+  cursor: pointer;
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  & > a {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.ciPoAction {
+  font-size: 20px;
+  cursor: pointer;
+  margin: 4px;
+}
+
+.envSelectCascader {
+  direction: rtl;
+  :global(.ant-cascader-menu) {
+    direction: ltr;
+  }
+}

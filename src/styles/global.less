@@ -1,0 +1,85 @@
+.edit {
+  &-input {
+    :global(.ant-input-group-addon),
+    :global(.ant-input-group-addon) {
+      background-color: transparent;
+      border-width: 0;
+    }
+
+    input&,
+    textarea&,
+    &:global(.ant-picker),
+    &:global(.ant-picker-range),
+    &:global(.ant-input-number),
+    &:global(.ant-input-affix-wrapper),
+    & :global(.ant-input-affix-wrapper) {
+      border-top: 0 !important;
+      border-right: 0 !important;
+      border-left: 0 !important;
+      border-radius: 0 !important;
+
+      &:focus,
+      &:global(.ant-input-focused),
+      &:global(.ant-picker-focused),
+      &:global(.ant-input-number-focused),
+      &:global(.ant-input-affix-wrapper-focused),
+      &:global(.ant-input-affix-wrapper-focused) {
+        box-shadow: 0 2px 0 0 rgba(49, 103, 252, 0.2);
+      }
+
+      &:global(.ant-input-disabled),
+      &:global(.ant-select-disabled),
+      &:global(.ant-picker-disabled),
+      &:global(.ant-input-affix-wrapper-disabled) {
+        background-color: transparent;
+        border-bottom: 1px dashed #d9d9d9;
+      }
+
+      :global(.ant-form-item-has-error) & {
+        &:focus,
+        &:global(.ant-input-focused),
+        &:global(.ant-picker-focused),
+        &:global(.ant-input-affix-wrapper-focused) {
+          box-shadow: 0 2px 0 0 rgba(255, 77, 79, 0.2) !important;
+        }
+      }
+    }
+
+    & > :global(.ant-select-selector) {
+      border-top: 0 !important;
+      border-right: 0 !important;
+      border-left: 0 !important;
+      border-radius: 0 !important;
+    }
+
+    &:global(.ant-select-disabled) > :global(.ant-select-selector) {
+      background-color: transparent !important;
+      border-bottom: 1px dashed #d9d9d9;
+    }
+
+    :global(.ant-form-item-has-error) & {
+      &:global(.ant-select-focused) > :global(.ant-select-selector) {
+        box-shadow: 0 2px 0 0 rgba(255, 77, 79, 0.2) !important;
+      }
+    }
+
+    &:global(.ant-select-focused) > :global(.ant-select-selector) {
+      box-shadow: 0 2px 0 0 rgba(49, 103, 252, 0.2) !important;
+    }
+  }
+}
+
+.click-list-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 1.5rem;
+  color: rgba(0, 0, 0, 0.65);
+  &:hover {
+    background-color: rgba(249, 249, 249, 1);
+    cursor: pointer;
+  }
+  &-true {
+    color: #3167fc;
+    background-color: rgba(240, 246, 255, 1);
+  }
+}

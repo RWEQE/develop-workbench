@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 25</title>
+    <defs>
+        <linearGradient x1="24.7838959%" y1="-35.5001857%" x2="72.1320691%" y2="109.993619%" id="linearGradient-1">
+            <stop stop-color="#68F0BC" offset="0%"></stop>
+            <stop stop-color="#20D3A1" offset="100%"></stop>
+        </linearGradient>
+        <path d="M14,5.83333333 C9.49010417,5.83333333 5.83333333,9.49010417 5.83333333,14 C5.83333333,18.5098958 9.49010417,22.1666667 14,22.1666667 C18.5098958,22.1666667 22.1666667,18.5098958 22.1666667,14 C22.1666667,9.49010417 18.5098958,5.83333333 14,5.83333333 Z M17.5273437,11.3330729 L13.6882812,16.6559896 C13.4567708,16.9786458 12.9773437,16.9786458 12.7458333,16.6559896 L10.4726562,13.5059896 C10.4033854,13.409375 10.4726562,13.2744792 10.5911458,13.2744792 L11.4460937,13.2744792 C11.6320312,13.2744792 11.8088542,13.3638021 11.9182292,13.5169271 L13.2161458,15.3179687 L16.0817708,11.3440104 C16.1911458,11.1927083 16.3661458,11.1015625 16.5539062,11.1015625 L17.4088542,11.1015625 C17.5273437,11.1015625 17.5966146,11.2364583 17.5273437,11.3330729 Z" id="path-2"></path>
+        <filter x="-91.8%" y="-42.9%" width="222.4%" height="183.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="4" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="8" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.141176471   0 0 0 0 0.843137255   0 0 0 0 0.542165433  0 0 0 0.502731643 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <rect id="BG-Color" fill="#E6FEF7" x="0" y="0" width="28" height="28" rx="14"></rect>
+      <g id="形状">
+        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+      </g>
+    </g>
+</svg>

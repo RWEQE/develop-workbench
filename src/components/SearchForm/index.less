@@ -1,0 +1,38 @@
+.searchForm {
+  font-size: 14px;
+  .widthAll {
+    width: 100%;
+  }
+  .rowItem {
+    width: 100%;
+    .colItem {
+      margin: 12px 0px;
+    }
+    .btnColItem {
+      margin: 12px 0px;
+      flex: 1;
+      text-align: end;
+    }
+    :global(.ant-form-item) {
+      justify-content: end;
+      margin-right: 24px;
+      :global(.ant-form-item-label) {
+        width: 80px;
+      }
+      :global(.ant-form-item-control) {
+        max-width: calc(100% - 80px);
+      }
+    }
+    .btnSearch {
+      //   min-width: 60px;
+      margin-left: 8px;
+    }
+    .btnReset {
+      //   min-width: 60px;
+      margin-left: 8px;
+    }
+    .btnExpand {
+      margin-right: 8px;
+    }
+  }
+}

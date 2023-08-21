@@ -1,0 +1,91 @@
+/* stylelint-disable */
+/*
+将c7NMdParse容器里的所有元素设为默认值 嗒哒
+用于react-markdown
+ */
+.c7NMdParse html,.c7NMdParse address,.c7NMdParse blockquote,.c7NMdParse body,.c7NMdParse dd,.c7NMdParse div,
+.c7NMdParse dl,.c7NMdParse dt,.c7NMdParse fieldset,.c7NMdParse form,.c7NMdParse frame,.c7NMdParse frameset,
+.c7NMdParse h1,.c7NMdParse h2,.c7NMdParse h3,.c7NMdParse h4,.c7NMdParse h5,.c7NMdParse h6,.c7NMdParse noframes,
+.c7NMdParse ol,.c7NMdParse p,.c7NMdParse ul,.c7NMdParse center,.c7NMdParse dir,.c7NMdParse hr,.c7NMdParse menu,
+.c7NMdParse pre { display: block }
+.c7NMdParse li { display: list-item; margin-bottom: 5px }
+.c7NMdParse head { display: none }
+.c7NMdParse table { display: table }
+.c7NMdParse tr { display: table-row }
+.c7NMdParse thead { display: table-header-group }
+.c7NMdParse tbody { display: table-row-group }
+.c7NMdParse tfoot { display: table-footer-group }
+.c7NMdParse col { display: table-column }
+.c7NMdParse colgroup { display: table-column-group }
+.c7NMdParse td,.c7NMdParse  th { display: table-cell; }
+.c7NMdParse caption { display: table-caption }
+.c7NMdParse th { font-weight: bolder; text-align: center }
+.c7NMdParse caption { text-align: center }
+.c7NMdParse body { margin: 8px; line-height: 1.12 }
+.c7NMdParse h1 { font-size: 2em; line-height: 1.5em }
+.c7NMdParse h2 { font-size: 1.5em; line-height: 1.5em }
+.c7NMdParse h3 { font-size: 1.17em; line-height: 1.5em }
+.c7NMdParse h4 { font-size: 1.09em; line-height: 1.5em }
+.c7NMdParse blockquote,.c7NMdParse fieldset, .c7NMdParse form,.c7NMdParse dl,.c7NMdParse dir,.c7NMdParse menu { margin: 1.12em 0 }
+.c7NMdParse h5 { font-size: .83em; line-height: 1.5em }
+.c7NMdParse h6 { font-size: .75em; line-height: 1.5em }
+.c7NMdParse h1, .c7NMdParse h2, .c7NMdParse h3, .c7NMdParse h4, .c7NMdParse h5, .c7NMdParse h6, .c7NMdParse b,.c7NMdParse strong { font-weight: bolder }
+.c7NMdParse blockquote { margin-left: 40px; margin-right: 40px }
+.c7NMdParse i, .c7NMdParse cite, .c7NMdParse em,.c7NMdParse var,.c7NMdParse address { font-style: italic }
+.c7NMdParse pre, .c7NMdParse tt,.c7NMdParse  code,.c7NMdParse  kbd,.c7NMdParse samp { font-family: monospace }
+.c7NMdParse pre { white-space: pre }
+.c7NMdParse button,.c7NMdParse textarea,.c7NMdParse input,.c7NMdParse object,.c7NMdParse select { display:inline-block; }
+.c7NMdParse big { font-size: 1.17em }
+.c7NMdParse small, .c7NMdParse sub, .c7NMdParse sup { font-size: .83em }
+.c7NMdParse sub { vertical-align: sub }
+.c7NMdParse sup { vertical-align: super }
+.c7NMdParse table { border-spacing: 2px; }
+.c7NMdParse thead, .c7NMdParse tbody,.c7NMdParse tfoot { vertical-align: middle }
+.c7NMdParse td, .c7NMdParse th { vertical-align: inherit }
+.c7NMdParse s, .c7NMdParse strike,.c7NMdParse  del { text-decoration: line-through }
+.c7NMdParse hr { border: 1px inset }
+.c7NMdParse ol, .c7NMdParse ul,.c7NMdParse  dir, .c7NMdParse menu, .c7NMdParse dd { margin-left: 16px }
+.c7NMdParse ol { list-style-type: decimal }
+.c7NMdParse ol ul,.c7NMdParse ul ol, .c7NMdParse ul ul, .c7NMdParse ol ol { margin-top: 0; margin-bottom: 0 }
+.c7NMdParse u,.c7NMdParse ins { text-decoration: underline }
+.c7NMdParse br:before { content: "A" }
+.c7NMdParse :before, .c7NMdParse :after { white-space: pre-line }
+.c7NMdParse center { text-align: center }
+.c7NMdParse abbr,.c7NMdParse acronym { font-variant: small-caps; letter-spacing: 0.1em }
+.c7NMdParse :link,.c7NMdParse :visited { text-decoration: underline }
+.c7NMdParse :focus { outline: thin dotted invert }
+.c7NMdParse BDO[DIR="ltr"] { direction: ltr; unicode-bidi: bidi-override }
+.c7NMdParse BDO[DIR="rtl"] { direction: rtl; unicode-bidi: bidi-override }
+.c7NMdParse *[DIR="ltr"] { direction: ltr; unicode-bidi: embed }
+.c7NMdParse *[DIR="rtl"] { direction: rtl; unicode-bidi: embed }
+@media print {
+  .c7NMdParse h1 { page-break-before: always }
+  .c7NMdParse h1,.c7NMdParse h2,.c7NMdParse h3,.c7NMdParse h4,.c7NMdParse h5,.c7NMdParse h6 { page-break-after: avoid }
+  .c7NMdParse ul,.c7NMdParse ol,.c7NMdParse dl { page-break-before: avoid }
+}
+
+.c7NMdParse pre {
+  border: 1px solid #ccc;
+}
+
+.c7NMdParse blockquote {
+  color: #666;
+  margin: 0;
+  padding-left: 3em;
+  border-left: 0.5em #eee solid;
+}
+
+.c7NMdParse tr {
+  border-top: 1px solid #c6cbd1;
+  background: #fff;
+}
+
+.c7NMdParse th,
+.c7NMdParse td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+.c7NMdParse table tr:nth-child(2n) {
+  background: #f6f8fa;
+}

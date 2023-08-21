@@ -1,0 +1,40 @@
+.checkApplicationGroup {
+  width: 100%;
+  padding-left: 12px;
+  .checkApplication {
+    width: calc((100% - 60px) / 5);
+    min-width: 250px;
+    margin: 0 12px 12px 0;
+    .applicationTitle {
+      display: flex !important;
+      .titleIcon {
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+      }
+      .titleAppMsg {
+        width: 80%;
+        & > span {
+          width: 100%;
+          display: block;
+        }
+      }
+    }
+    .applicationDescription {
+      .descriptionDivider {
+        margin: 8px 0px;
+        color: #000000;
+      }
+      .descriptionProject {
+        // color: #000000;
+      }
+    }
+    :global(.ant-pro-checkcard-detail) {
+      width: 100%;
+      :global(.ant-pro-checkcard-title) {
+        width: 100%;
+      }
+    }
+  }
+}
